@@ -37,3 +37,11 @@ function gimme(a) {
 gimme([2, 3, 1])
 
 console.log(gimme([2, 3, 1]))
+
+function repeatStr(n, s) {
+    return s.repeat(n);
+}
+
+console.log(repeatStr(3, "hello"))
+
+// TIL about the .repeat() method! 
