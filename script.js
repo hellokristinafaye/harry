@@ -57,8 +57,57 @@ console.log("Expelliarumus");
 
 // console.log(nbYear(1500, 5, 100, 5000));
 
-function twoSort(s) {
-    return s.sort()[0].split('').join('***');
+// function twoSort(s) {
+//     return s.sort()[0].split('').join('***');
+// }
+
+// console.log(twoSort(["turns", "out", "random", "test", "cases", "are", "easier", "than", "writing", "out", "basic", "ones"]));
+
+
+function whatday(num) {
+    switch (num) {
+        case 1:
+            return = "Sunday";
+        case 2:
+            return = "Monday";
+        case 3:
+            return = "Tuesday";
+        case 4:
+            return = "Wednesday";
+        case 5:
+            return = "Thursday";
+        case 6:
+            return = "Friday";
+        case 7:
+            return = "Saturday";
+        default:
+            return = "Wrong, please enter a number between 1 and 7";
+    }
 }
 
-console.log(twoSort(["turns", "out", "random", "test", "cases", "are", "easier", "than", "writing", "out", "basic", "ones"]));
+console.log(whatday(2));
+
+function whatdays(num) {
+    switch (num) {
+        case 1:
+            return "Sunday";
+        case 2:
+            return "Monday";
+        case 3:
+            return "Tuesday";
+        case 4:
+            return "Wednesday";
+        case 5:
+            return "Thursday";
+        case 6:
+            return "Friday";
+        case 7:
+            return "Saturday";
+        default:
+            return 'Wrong, please enter a number between 1 and 7';
+    }
+}
+
+// WOW let’s NEVER again use W3Schoools.Like, I don’t know wtf their goal is but their content does NOT fit in our process. eff that. 
+
+console.log(whatdays(2));
